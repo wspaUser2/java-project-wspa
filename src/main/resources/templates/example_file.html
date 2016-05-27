@@ -4,7 +4,21 @@
 	<link rel="stylesheet" href="webjars/bootstrap/3.3.6/css/bootstrap.css"/>
 </head>
 <body>
-	<h1 th:text="'hello '+ ${name}"></h1>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">WSPA DEveLopMent</a>
+	    </div>
+	  </div>
+	</nav>
+	<div class="col-md-12" style="text-align: center;">
+		<div class="jumbotron">
+	  	<h1 th:text="'Witaj '+ ${name}"></h1>
+		  <p th:text="'To jest projekt Wyspa z JAva :D'"></p>
+		  <p><a class="btn btn-primary btn-lg" href="#" role="button">DONATE :D</a></p>
+		</div>
+	</div>	
 	
 	<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript" src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
